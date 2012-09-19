@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "mocha": "~1.4.2",
-    "pegjs": "git://github.com/michaelficarra/CoffeeScriptRedux.git#pegjs"
+    "pegjs": "git://github.com/michaelficarra/CoffeeScriptRedux.git#pegjs",
+    "pegjs-coffee-plugin": "~0.1.0"
   },
   "dependencies": {
     "StringScanner": "~0.0.3"
@@ -37,7 +38,9 @@
     "escodegen": "~0.0.9",
     "cscodegen": "~0.1.0"
   },
-  "engines": { "node": "0.6.x || 0.8.x" },
+  "engines": {
+    "node": "0.6.x || 0.8.x"
+  },
   "licenses": [
     {
       "type": "3-clause BSD",
